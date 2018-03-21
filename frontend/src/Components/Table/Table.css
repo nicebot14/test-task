@@ -1,0 +1,22 @@
+table {
+    border-spacing: 0;
+    border: 1px solid grey;
+}
+
+thead {
+    background-color: lawngreen;
+    border-collapse: collapse;
+}
+
+tr > th, tr > td {
+    text-align: left;
+    padding: 5px;
+}
+
+.center-ceil {
+    text-align: center;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: lightgray;
+}
